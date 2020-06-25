@@ -15,3 +15,29 @@
 #container .lists li:nth-child(2) {
   color: blue;
 }
+
+@media (min-width: 992px) {
+
+  #container {
+    background-color: red;
+  }
+  #container .name {
+    color: blue;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  #container {
+    background-color: blue;
+  }
+}
+
+@media (max-width: 786px) {
+
+  #container {
+    background-color: pink;
+  }
+
+  
+}
